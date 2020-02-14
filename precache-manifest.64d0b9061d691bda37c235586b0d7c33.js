@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efbf6a47e3c39dad4e6f690d14591f16",
+    "revision": "bd2f32f7e6aa8260b8ec7e759f563157",
     "url": "/wake-up-alarm/index.html"
   },
   {
