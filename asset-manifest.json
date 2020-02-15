@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/wake-up-alarm/static/css/main.be9895b2.chunk.css",
-    "main.js": "/wake-up-alarm/static/js/main.cb8d5d44.chunk.js",
-    "main.js.map": "/wake-up-alarm/static/js/main.cb8d5d44.chunk.js.map",
+    "main.css": "/wake-up-alarm/static/css/main.5dab0405.chunk.css",
+    "main.js": "/wake-up-alarm/static/js/main.7be20a05.chunk.js",
+    "main.js.map": "/wake-up-alarm/static/js/main.7be20a05.chunk.js.map",
     "runtime-main.js": "/wake-up-alarm/static/js/runtime-main.4ed16dd8.js",
     "runtime-main.js.map": "/wake-up-alarm/static/js/runtime-main.4ed16dd8.js.map",
     "static/js/2.5099b74f.chunk.js": "/wake-up-alarm/static/js/2.5099b74f.chunk.js",
     "static/js/2.5099b74f.chunk.js.map": "/wake-up-alarm/static/js/2.5099b74f.chunk.js.map",
     "index.html": "/wake-up-alarm/index.html",
-    "precache-manifest.64d0b9061d691bda37c235586b0d7c33.js": "/wake-up-alarm/precache-manifest.64d0b9061d691bda37c235586b0d7c33.js",
+    "precache-manifest.1f422e7c2ab5a298a5d8c626da9fe859.js": "/wake-up-alarm/precache-manifest.1f422e7c2ab5a298a5d8c626da9fe859.js",
     "service-worker.js": "/wake-up-alarm/service-worker.js",
-    "static/css/main.be9895b2.chunk.css.map": "/wake-up-alarm/static/css/main.be9895b2.chunk.css.map",
+    "static/css/main.5dab0405.chunk.css.map": "/wake-up-alarm/static/css/main.5dab0405.chunk.css.map",
     "static/js/2.5099b74f.chunk.js.LICENSE.txt": "/wake-up-alarm/static/js/2.5099b74f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4ed16dd8.js",
     "static/js/2.5099b74f.chunk.js",
-    "static/css/main.be9895b2.chunk.css",
-    "static/js/main.cb8d5d44.chunk.js"
+    "static/css/main.5dab0405.chunk.css",
+    "static/js/main.7be20a05.chunk.js"
   ]
 }
