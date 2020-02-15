@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "398809f256a5c5892f8dd848269c8914",
+    "revision": "1ea127352c4fed6c1714f87b9a3d0444",
     "url": "/wake-up-alarm/index.html"
   },
   {
-    "revision": "3835e1f3b8e18779433e",
+    "revision": "8864a72377016ea409e1",
     "url": "/wake-up-alarm/static/css/main.5dab0405.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wake-up-alarm/static/js/2.5099b74f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3835e1f3b8e18779433e",
-    "url": "/wake-up-alarm/static/js/main.7be20a05.chunk.js"
+    "revision": "8864a72377016ea409e1",
+    "url": "/wake-up-alarm/static/js/main.18fd4c7e.chunk.js"
   },
   {
     "revision": "3ff6b7ca72c2820206bc",

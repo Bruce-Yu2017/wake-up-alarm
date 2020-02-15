@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wake-up-alarm/precache-manifest.1f422e7c2ab5a298a5d8c626da9fe859.js"
+  "/wake-up-alarm/precache-manifest.d1f824fbe38fb2456ad5a9f5e355c9da.js"
 );
 
 self.addEventListener('message', (event) => {
