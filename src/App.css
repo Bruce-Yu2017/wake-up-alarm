@@ -47,22 +47,6 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 
-input {
-  border: 5px solid white; 
-  -webkit-box-shadow: 
-    inset 0 0 8px  rgba(0,0,0,0.1),
-          0 0 16px rgba(0,0,0,0.1); 
-  -moz-box-shadow: 
-    inset 0 0 8px  rgba(0,0,0,0.1),
-          0 0 16px rgba(0,0,0,0.1); 
-  box-shadow: 
-    inset 0 0 8px  rgba(0,0,0,0.1),
-          0 0 16px rgba(0,0,0,0.1); 
-  padding: 15px;
-  background: rgba(255,255,255,0.5);
-  margin: 0 0 10px 0;
-}
-
 .alarm {
   visibility: hidden;
 }
@@ -72,4 +56,9 @@ input {
   font-style: italic;
   margin-left: 10px;
   display: block;
+}
+
+.container .input-group {
+  width: 50% !important;
+  margin: 0 auto;
 }

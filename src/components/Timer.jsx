@@ -103,10 +103,10 @@ export default class Timer extends Component {
         this.setState({ ...this.state, inputHour: e, isStartAlarm: true, inputHourErr: (e < 0 || e > 59) });
         break;
       case 'minute':
-        this.setState({ ...this.state, inputMinute: e, isStartAlarm: true, inputMinuteErr: (e < 0 || e > 59)});
+        this.setState({ ...this.state, inputMinute: e, isStartAlarm: true, inputMinuteErr: (e < 0 || e > 59) });
         break;
       case 'second':
-        this.setState({ ...this.state, inputSecond: e, isStartAlarm: true, inputSecondErr: (e < 0 || e > 59)});
+        this.setState({ ...this.state, inputSecond: e, isStartAlarm: true, inputSecondErr: (e < 0 || e > 59) });
         break;
       default:
         console.log('setting time')
@@ -120,18 +120,33 @@ export default class Timer extends Component {
   render() {
     return (
       <div className='container mt-5'>
-        <div className='timer-input mb-3'>
-          <h3>Wake me up after: </h3>
-          <label htmlFor="">Hours: </label><input type="text" min='0' value={this.state.inputHour} placeholder='Enter Hours' className='ml-2' onChange={(e) => { this.getTime(e.target.value, 'hour') }} />
-          {this.state.inputHourErr && <small className='errMsg'>Enter integer greater than 0 and less than 60</small>}
-          <br />
-          <label htmlFor="">Minutes: </label><input type="text" min='0' value={this.state.inputMinute} placeholder='Enter Minutes' className='ml-2' onChange={(e) => { this.getTime(e.target.value, 'minute') }} />
-          {this.state.inputMinuteErr && <small className='errMsg'>Enter integer greater than 0 and less than 60</small>}
-          <br />
-          <label htmlFor="">Seconds: </label><input type="text" min='0' value={this.state.inputSecond} placeholder='Enter Seconds' className='ml-2' onChange={(e) => { this.getTime(e.target.value, 'second') }} />
-          {this.state.inputSecondErr && <small className='errMsg'>Enter integer greater than 0 and less than 60</small>}
-          
+        <h3>Wake me up after: </h3>
 
+        <div className="input-group mb-3">
+          <div className="input-group-prepend">
+            <span className="input-group-text" id="basic-addon1">Hour:</span>
+          </div>
+          <input type="text" className="form-control" placeholder="Enter Hours" aria-label="Hours" aria-describedby="basic-addon1"
+            value={this.state.inputHour} onChange={(e) => { this.getTime(e.target.value, 'hour') }} />
+          {this.state.inputHourErr && <small className='errMsg'>Enter integer greater than 0 and less than 60</small>}
+        </div>
+
+        <div className="input-group mb-3">
+          <div className="input-group-prepend">
+            <span className="input-group-text" id="basic-addon1">Mins:</span>
+          </div>
+          <input type="text" value={this.state.inputMinute} className="form-control" placeholder="Enter Minute" aria-label="Hours" aria-describedby="basic-addon1"
+            onChange={(e) => { this.getTime(e.target.value, 'minute') }} />
+          {this.state.inputMinuteErr && <small className='errMsg'>Enter integer greater than 0 and less than 60</small>}
+        </div>
+
+        <div className="input-group mb-3">
+          <div className="input-group-prepend">
+            <span className="input-group-text" id="basic-addon1">Secs:</span>
+          </div>
+          <input type="text" className="form-control" placeholder="Enter Seconds" aria-label="Hours" aria-describedby="basic-addon1"
+            value={this.state.inputSecond} onChange={(e) => { this.getTime(e.target.value, 'second') }} />
+          {this.state.inputSecondErr && <small className='errMsg'>Enter integer greater than 0 and less than 60</small>}
         </div>
 
 
@@ -151,7 +166,7 @@ export default class Timer extends Component {
             <button className='btn btn-warning m-2' onClick={() => this.resetTimer()}>Reset Timer</button>
           </div>
         </div>
-        <audio controls id="music" onClick={() => {this.playMusic()}} className='alarm'>
+        <audio controls id="music" onClick={() => { this.playMusic() }} className='alarm'>
           <source src="analog-watch-alarm_daniel-simion.mp3" type="audio/mpeg" />
         </audio>
       </div>
