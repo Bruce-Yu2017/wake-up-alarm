@@ -65,7 +65,7 @@ export default class Timer extends Component {
           timerState: "working"
         })
       }
-    }, 5);
+    }, 1000);
   }
 
   stopTimer = () => {
